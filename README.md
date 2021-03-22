@@ -7,7 +7,7 @@
 ### UCB-VIRT-FIN-PT-12-2020-U-B-TTH
 ---
 
-# Credit Risk Classification Reporting 
+# Credit Risk Classification and Reporting 
 
 
 ---
