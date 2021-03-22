@@ -3,7 +3,7 @@
 
 
 
-# Konrad Kozicki
+#### Konrad Kozicki
 ### UCB-VIRT-FIN-PT-12-2020-U-B-TTH
 ---
 
@@ -75,6 +75,8 @@ To do so, complete the following steps:
     * Print the classification report.
     
 4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+---
 
 ### Write a Credit Risk Analysis Report
 
