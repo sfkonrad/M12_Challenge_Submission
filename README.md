@@ -55,7 +55,7 @@ To build a model that can identify the creditworthiness of borrowers, we used ou
 1. First, we used the original dataset.
 2. Then, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
 
-    For both cases, we: 
+For both cases, we: 
     > - obtained the count of the target classes
     >
     > - trained a logistic regression classifier
