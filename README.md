@@ -164,16 +164,15 @@ To do so, we completed the following steps:
 
 
 
-* Target Class Count Comparison
-Reveals that the 2500 Bad Loans represent approx 3% of the Original data. 
-Whereas the `RandomOverSampler` populates 56271 entries, or exactly 50% of the Resampled loan data, as Bad Loans.
+### Target Class Count Comparison
+Reveals that the 2500 Bad Loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates 56271 entries, or exactly 50% of the Resampled loan data, as 'Bad' loans.
 
 
-* Balanced Accuracy Score Comparison
-The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of 0.9937. Whereas the Original Model produced a score of 0.9520.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy below.
+### Balanced Accuracy Score Comparison
+The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of 0.9937.  Whereas the Original Model produced a score of 0.9520.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy below.
 
 
-* Confusion Matrix Comparison
+### Confusion Matrix Comparison
 TP Original 18663 v 18649 bad as bad
 TN Resample 615 v 563 good as good
 FP Resample 4 v 56 good as bad (losing out on good loans)
@@ -186,7 +185,7 @@ We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore
 
 What's most important in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.
 
-Rather than ensuring that every `0`'s, or 'Good' borrower, is approved for their loan, as might be considered in a reckless growth strategy. 
+Rather than ensuring that every `0`, or 'Good' borrower, is approved for their loan, as might be considered in a reckless growth strategy. 
 
 
 If growth is the main objective, observing (FPs) to avoid losing out on business by classifying more borrowers as 'Good' 
@@ -200,6 +199,6 @@ to avoid lending to bad borrowers
 
 
 
-* Classification Report Comparison
+### Classification Report Comparison
 
 
