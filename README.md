@@ -56,15 +56,15 @@ To build a model that can identify the creditworthiness of borrowers, we used ou
 2. Then, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
 
     For both cases, we: 
-  > - obtained the count of the target classes
-  >
-  > - trained a logistic regression classifier
-  >
-> - calculated the balanced accuracy score
->
-> - generated a confusion matrix
->
-> - generated a classification report
+    > - obtained the count of the target classes
+    >
+    > - trained a logistic regression classifier
+    >
+    > - calculated the balanced accuracy score
+    >
+    > - generated a confusion matrix
+    >
+    > - generated a classification report
 
 
 
