@@ -12,19 +12,19 @@
 
 ---
 
-### Write a `Credit Risk Analysis Report`
+### Write a `[CREDIT RISK ANALYSIS REPORT](https://github.com/sfkonrad/M12_Challenge_Submission#credit-risk-analysis-report)`
 
 For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared in this challenge. 
 
 We were instructed to produce our report by using the template provided in the `Starter_Code.zip` directory, ensuring that our summary report includes the following:
 
-> 1. An Overview of the Analysis: 
+> 1. An [Overview](https://github.com/sfkonrad/M12_Challenge_Submission#overview) of the Analysis: 
 >     - Explaining the purpose of this analysis.
 > 
-> 2. The Results of Our Analysis: 
+> 2. The [Results](https://github.com/sfkonrad/M12_Challenge_Submission#analysis-results) of Our Analysis: 
 >     - Using bulleted lists for describing the balanced accuracy scores and the precision and recall scores of both machine learning models.
 >
-> 3. A Summary of Our Analysis: 
+> 3. A [Summary](https://github.com/sfkonrad/M12_Challenge_Submission#summary) of Our Analysis: 
 >     - Summarizing the results from the machine learning models. 
 >     - Comparing the two versions of the dataset predictions. 
 >     - Including our recommendation for the model to use, if any, on the original vs. the resampled data. 
@@ -130,8 +130,8 @@ To do so, we completed the following steps:
    
 * Confusion Matrix Comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
-   >>>>>>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
-   >>>>>>>>>> © 2021 Khaled Karman
+   >>>>>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
+   >>>>>>>>> © 2021 Khaled Karman
    
    
 * Classification Report Comparisons
