@@ -51,8 +51,8 @@ The following sections constitute the scope of our analysis:
 ## OVERVIEW
 
 To build a model that identifies borrowers' creditworthiness, we used our knowledge of the **imbalanced-learn** library to develop a logistic regression model for comparing two versions of the historical lending activity datasets from a peer-to-peer lending services company:
-1. First, we used the original dataset.
-2. Second, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
+* First, we used the original dataset.
+* Second, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
 
 For both cases, we: 
    > - obtained the count of the target classes
