@@ -102,7 +102,7 @@ To do so, we completed the following steps:
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-For both cases, we: 
+ For both cases, we: 
    > - obtained the count of the target classes
    >
    > - trained a logistic regression classifier
