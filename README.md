@@ -143,7 +143,7 @@ To do so, we completed the following steps:
 
 > 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 > * Which one seems to perform best? How do you know it performs best?
-> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )... the `1`'s' are rare, but critical to identify and predict
 > 
 > 
 > Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
