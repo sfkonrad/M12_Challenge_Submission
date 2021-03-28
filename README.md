@@ -100,7 +100,7 @@ To do so, we completed the following steps:
 ## ANALYSIS RESULTS
 
 
-#### * Original Machine Learning Model 1:
+### * Original Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
    > - count of the target classes
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
@@ -108,7 +108,7 @@ To do so, we completed the following steps:
 
 
 
-#### * Resampled Machine Learning Model 2:
+### * Resampled Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
    > - count of the target classes
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
@@ -120,21 +120,21 @@ To do so, we completed the following steps:
 
 ## SUMMARY
 
-* target class count comparisons
+* Target Class Count Comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
-* balanced accuracy score comparisons
+* Balanced Accuracy Score Comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
-* confusion matrix comparisons
+* Confusion Matrix Comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
-   >>>>>>>>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
-   >>>>>>>>>>>> © 2021 Khaled Karman
+   >>>>>>>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
+   >>>>>>>>>>> © 2021 Khaled Karman
    
    
-* classification report comparisons
+* Classification Report Comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
    
 
