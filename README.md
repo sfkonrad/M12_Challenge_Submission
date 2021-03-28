@@ -65,7 +65,7 @@ For both cases, we:
    >
    > - generated a classification report
 
-#### Splitting the Data into Training and Testing Sets
+#### 1) Splitting the Data into Training and Testing Sets
 1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 2. Created the labels set (`y`)  from the “loan_status” column, and then created the features (`X`) DataFrame from the remaining columns.
     > **`Note`** 
@@ -74,7 +74,7 @@ For both cases, we:
 3. We checked the balance of the labels variable (`y`) by using the `value_counts` function.
 4. Split the data into training and testing datasets by using `train_test_split`.
 
-#### Creating a Logistic Regression Model with the Original Data
+#### 2) Creating a Logistic Regression Model with the Original Data
 Employing our logistic regression skillz to complete the following steps:
 1. Fit a logistic regression model by using the training data (`X_train` and `y_train`).
 2. Save the predictions on the testing data labels by using the testing feature data (`X_test`) and the fitted model.
@@ -83,7 +83,7 @@ Employing our logistic regression skillz to complete the following steps:
     * Generate a confusion matrix.
     * Print the classification report.
 
-#### Predicting a Logistic Regression Model with Resampled Training Data
+#### 3) Predicting a Logistic Regression Model with Resampled Training Data
 As expected, the small number of loans labeled `high-risk` requires us to develop a model that uses resampled data to help increase its performance. We did this by using `RandomOverSampler` to resample the training data and then reevaluate the model. 
 To do so, we completed the following steps:
 1. Used the `RandomOverSampler` module from the imbalanced-learn library to resample the data. Be sure to confirm that the labels have an equal number of data points. 
