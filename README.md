@@ -34,10 +34,10 @@ We were instructed to produce our report by using the template provided in the `
 ---
 # CREDIT RISK ANALYSIS REPORT
 
-## INTRO
-Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. In this Challenge, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  We employed a dataset composed of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+## Introduction
+Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. For this Project, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  A dataset composed of historical lending activity from a peer-to-peer lending services company was employed to build a model that can identify the creditworthiness of borrowers.
 
-The following subsections constitute the scope of our analysis:
+The following sections constitute the scope of our analysis:
 
 * Split the Data into Training and Testing Sets
 
@@ -45,7 +45,7 @@ The following subsections constitute the scope of our analysis:
 
 * Predict a Logistic Regression Model with Resampled Training Data 
 
-
+---
 
 # OVERVIEW
 ### Split the Data into Training and Testing Sets
