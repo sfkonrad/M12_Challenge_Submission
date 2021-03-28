@@ -130,6 +130,8 @@ To do so, we completed the following steps:
    
 * confusion matrix comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
+   >>>> ![image.png](attachment:c83e0f1c-6d2d-4829-9f2e-3a3e305910f4.png)
+   >>>> Created by Khaled Karman
    
    
 * classification report comparisons
