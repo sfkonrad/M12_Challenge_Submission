@@ -166,11 +166,11 @@ To do so, we completed the following steps:
 
 * Target Class Count Comparison
 Reveals that the 2500 Bad Loans represent approx 3% of the Original data. 
-Whereas the `resampler` populates 56271, or exactly 50% of the Resampled loan data, as Bad Loans.
+Whereas the `RandomOverSampler` populates 56271, or exactly 50% of the Resampled loan data, as Bad Loans.
 
 
 * Balanced Accuracy Score Comparison
-The **Resampled Model 2 appears to demonstrate the better performance** for overall Accuracy with a Balanced Accuracy Score of 0.9937. Whereas the Original Model produced a score of 0.9520.
+The **Resampled Model 2 appears to demonstrate the better performance** for overall Accuracy with a Balanced Accuracy Score of 0.9937. Whereas the Original Model produced a score of 0.9520. Which implies that the Resampled Model is more accurate. However, we will take a closer look at the Precision of this accuracy below.
 
 
 * Confusion Matrix Comparison
@@ -179,15 +179,18 @@ TN Resample 615 v 563 good as good
 FP Resample 4 v 56 good as bad (losing out on good loans)
 FN Original 102 v 116 bad as good (assuming more risky loans)
 
-Since were identifying the `1`'s, or Bad Loans, the most important {measuure} are the TPs first, TNs second, 
+
+Since the present objective is risk mitigation, we closely observe the (FN) to better distinguish the bad borrowers from the good.
+
+We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending to bad borrowers
+
+What's most important in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.
+
+Rather than ensuring that every `0`'s, or 'Good' borrower, is approved for their loan, as might be considered in a reckless growth strategy. 
 
 
-
-
-
-If growth is the main objective, then observing FPs toavoid losing out on business. to better id good borrowes 
-get more sales by not classifying Good borrowers as Bad
-to avoid declining good borrowers
+If growth is the main objective, observing (FPs) to avoid losing out on business by classifying more borrowers as 'Good' 
+at the risk of declining some 'Good' borrowers their loans
 
 
 If the goal is risk mitigation, then observing the FN avoid bad loans. to better id bad borrowrs
