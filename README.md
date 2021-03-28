@@ -86,6 +86,8 @@ For both cases, we:
 
 ---
 
+## RESULTS
+
 #### Splitting the Data into Training and Testing Sets
 1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 2. Created the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
