@@ -12,7 +12,7 @@
 
 ---
 
-### Write a `[CREDIT RISK ANALYSIS REPORT](https://github.com/sfkonrad/M12_Challenge_Submission#credit-risk-analysis-report)`
+### Write a [`CREDIT RISK ANALYSIS REPORT`](https://github.com/sfkonrad/M12_Challenge_Submission#credit-risk-analysis-report)
 
 For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared in this challenge. 
 
