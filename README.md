@@ -120,37 +120,35 @@ To do so, we completed the following steps:
 
 ## SUMMARY
 
-* compare the count of the target classes
+* target class count comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
-* compare the balanced accuracy scores
+* balanced accuracy score comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
-* compare the confusion matrixis
+* confusion matrix comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    
    
-* compare the classification reports
+* classification report comparisons
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
    
 
 
 
 
-> 3. A summary: Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
->
->
->
-> Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 > * Which one seems to perform best? How do you know it performs best?
 > * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
+> 
+> 
+> Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
 
 
 
 
 >  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-
+>
 > Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
