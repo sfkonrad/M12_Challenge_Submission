@@ -68,7 +68,7 @@ For both cases, we:
 ### 1) Splitting the Data into Training and Testing Sets
 1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 2. Created the labels set (`y`)  from the “loan_status” column, and then created the features (`X`) DataFrame from the remaining columns.
-    > **`Note`** 
+    **`Note`** 
     > - A value of `0` in the “loan_status” column indicates that the loan is healthy. 
     > - A value of `1` indicates that the loan has a high risk of defaulting.  
 3. We checked the balance of the labels variable (`y`) by using the `value_counts` function.
@@ -104,16 +104,22 @@ To do so, we completed the following steps:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
 
 
+For both cases, we: 
+   > - obtained the count of the target classes
+   >
+   > - trained a logistic regression classifier
+   >
+   > - calculated the balanced accuracy score
+   >
+   > - generated a confusion matrix
+   >
+   > - generated a classification report
+
+
+
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-
-
-
-
-
-
-
 For both cases, we: 
    > - obtained the count of the target classes
    >
