@@ -14,7 +14,7 @@
 
 ### Write a [`CREDIT RISK ANALYSIS REPORT`](https://github.com/sfkonrad/M12_Challenge_Submission#credit-risk-analysis-report)
 
-For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared in this challenge. 
+For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared. 
 
 We were instructed to produce our report by using the template provided in the `Starter_Code.zip` directory, ensuring that our summary report includes the following:
 
@@ -120,21 +120,21 @@ To do so, we completed the following steps:
 
 ## SUMMARY
 
-* Target Class Count Comparisons
+* Target Class Count Comparison
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
-* Balanced Accuracy Score Comparisons
+* Balanced Accuracy Score Comparison
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
-* Confusion Matrix Comparisons
+* Confusion Matrix Comparison
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
    
    
-* Classification Report Comparisons
+* Classification Report Comparison
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
    
 
@@ -154,3 +154,49 @@ To do so, we completed the following steps:
 >  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 >
 > Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+
+
+
+
+
+
+
+
+
+* Target Class Count Comparison
+Reveals that the 2500 Bad Loans represent approx 3% of the Original data. 
+Whereas the `resampler` populates 56271, or exactly 50% of the Resampled loan data, as Bad Loans.
+
+
+* Balanced Accuracy Score Comparison
+The **Resampled Model 2 appears to demonstrate the better performance** for overall Accuracy with a Balanced Accuracy Score of 0.9937. Whereas the Original Model produced a score of 0.9520.
+
+
+* Confusion Matrix Comparison
+TP Original 18663 v 18649 bad as bad
+TN Resample 615 v 563 good as good
+FP Resample 4 v 56 good as bad (losing out on good loans)
+FN Original 102 v 116 bad as good (assuming more risky loans)
+
+Since were identifying the `1`'s, or Bad Loans, the most important {measuure} are the TPs first, TNs second, 
+
+
+
+
+
+If growth is the main objective, then observing FPs toavoid losing out on business. to better id good borrowes 
+get more sales by not classifying Good borrowers as Bad
+to avoid declining good borrowers
+
+
+If the goal is risk mitigation, then observing the FN avoid bad loans. to better id bad borrowrs
+mitigate more risk by not classifying Bad borrowers as Good
+to avoid lending to bad borrowers
+
+
+
+
+* Classification Report Comparison
+
+
