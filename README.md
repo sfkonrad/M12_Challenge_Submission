@@ -12,11 +12,35 @@
 
 ---
 ---
-Credit risk poses a classification problem that’s inherently imbalanced. This is because healthy loans easily outnumber risky loans. In this Challenge, you’ll use various techniques to train and evaluate models with imbalanced classes. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
-## Instructions:
+### Write a Credit Risk Analysis Report
 
-This challenge consists of the following subsections:
+For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of both machine learning models that we used in this challenge. 
+
+We we instructed to structure our report by using the template provided in the `Starter_Code.zip` directory, ensuring that our summary report includes the following:
+
+1. An Overview of the Analysis: 
+> - Explaining the purpose of this analysis.
+ 
+2. The Results of Our Analysis: 
+> - Using bulleted lists for describing the balanced accuracy scores and the precision and recall scores of both machine learning models.
+
+3. A Summary of Our Analysis: 
+> - Summarizing the results from the machine learning models. 
+> - Comparing the two versions of the dataset predictions. 
+> - Including our recommendation for the model to use, if any, on the original vs. the resampled data. 
+
+---
+---
+# Credit Risk Analysis Report
+
+
+
+
+# INTRO
+Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. In this Challenge, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  We employed a dataset composed of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+
+The following subsections constitute the scope of our analysis:
 
 * Split the Data into Training and Testing Sets
 
@@ -24,9 +48,10 @@ This challenge consists of the following subsections:
 
 * Predict a Logistic Regression Model with Resampled Training Data 
 
-### Split the Data into Training and Testing Sets
 
-Open the starter code notebook and then use it to complete the following steps.
+
+# OVERVIEW
+### Split the Data into Training and Testing Sets
 
 1. Read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 
@@ -78,15 +103,3 @@ To do so, complete the following steps:
 
 ---
 
-### Write a Credit Risk Analysis Report
-
-For this section, you’ll write a brief report that includes a summary and an analysis of the performance of both machine learning models that you used in this challenge. You should write this report as the `README.md` file included in your GitHub repository.
-
-Structure your report by using the report template that `Starter_Code.zip` includes, and make sure that it contains the following:
-
-1. An overview of the analysis: Explain the purpose of this analysis.
-
-
-2. The results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of both machine learning models.
-
-3. A summary: Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning.
