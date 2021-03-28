@@ -120,11 +120,13 @@ To do so, we completed the following steps:
 
 ## SUMMARY
 
-* Target Class Count Comparison
+### Target Class Count Comparison
+Reveals that the **2500** 'Bad' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'Bad' loans.
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
-* Balanced Accuracy Score Comparison
+### Balanced Accuracy Score Comparison
+The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of **0.9937**.  Whereas the Original Model produced a score of **0.9520**.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy below.
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
@@ -164,12 +166,6 @@ To do so, we completed the following steps:
 
 
 
-### Target Class Count Comparison
-Reveals that the **2500** 'Bad' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'Bad' loans.
-
-
-### Balanced Accuracy Score Comparison
-The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of **0.9937**.  Whereas the Original Model produced a score of **0.9520**.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy below.
 
 
 ### Confusion Matrix Comparison
