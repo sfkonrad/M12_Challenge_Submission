@@ -103,16 +103,16 @@ To do so, we completed the following steps:
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
    > - count of the target classes
-   > ![image.png](attachment:b839f64d-86ea-4060-aeda-e87254a231b2.png)
-   > ![image.png](attachment:56330d55-43ab-443d-8a66-d37035fb5aa3.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_baso_confusion_matrix_classification_report.jpg?raw=true)
 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
    > - count of the target classes
-   > ![image.png](attachment:113afb25-69ad-444e-9c40-dca1414c2280.png)
-   > ![image.png](attachment:5a79d0af-b642-40c6-89de-d9881f3e7195.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_basr_confusion_matrix_classification_report.jpg?raw=true)
 
 
 
@@ -121,19 +121,19 @@ To do so, we completed the following steps:
 ## SUMMARY
 
 * compare the count of the target classes
-   > ![image.png](attachment:f9d75c20-613d-40cb-bd4d-63a18a6ca86d.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
 * compare the balanced accuracy scores
-   > ![image.png](attachment:309a7eda-7ec2-45c2-b796-ae613e0d946e.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
 * compare the confusion matrixis
-   > ![image.png](attachment:e38c78d1-b3ca-4969-be78-83c82adaefaf.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    
    
 * compare the classification reports
-   > ![image.png](attachment:66a303e7-09d9-4dee-8092-e0c25ded6323.png)
+   > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
    
    
 
