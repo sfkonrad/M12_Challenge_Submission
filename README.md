@@ -102,39 +102,17 @@ To do so, we completed the following steps:
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
- For both cases, we: 
-   > - obtained the count of the target classes
-   >
-   > - trained a logistic regression classifier
-   >
-   > - calculated the balanced accuracy score
-   >
-   > - generated a confusion matrix
-   >
-   > - generated a classification report
-
+   > - count of the target classes
+   > ![image.png](attachment:b839f64d-86ea-4060-aeda-e87254a231b2.png)
+   > ![image.png](attachment:56330d55-43ab-443d-8a66-d37035fb5aa3.png)
 
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-For both cases, we: 
-   > - obtained the count of the target classes
-   >
-   > - trained a logistic regression classifier
-   >
-   > - calculated the balanced accuracy score
-   >
-   > - generated a confusion matrix
-   >
-   > - generated a classification report
-
-
-
-
-
-
-
+   > - count of the target classes
+   > ![image.png](attachment:113afb25-69ad-444e-9c40-dca1414c2280.png)
+   > ![image.png](attachment:5a79d0af-b642-40c6-89de-d9881f3e7195.png)
 
 
 
@@ -142,13 +120,43 @@ For both cases, we:
 
 ## SUMMARY
 
+* compare the count of the target classes
+   > ![image.png](attachment:f9d75c20-613d-40cb-bd4d-63a18a6ca86d.png)
+   
+   
+* compare the balanced accuracy scores
+   > ![image.png](attachment:309a7eda-7ec2-45c2-b796-ae613e0d946e.png)
+   
+   
+* compare the confusion matrixis
+   > ![image.png](attachment:e38c78d1-b3ca-4969-be78-83c82adaefaf.png)
+   
+   
+* compare the classification reports
+   > ![image.png](attachment:66a303e7-09d9-4dee-8092-e0c25ded6323.png)
+   
+   
+
+
+
+
+> 3. A summary: Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning.
+>
+>
+>
+> Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+> * Which one seems to perform best? How do you know it performs best?
+> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+> 
+> 
+> 
+> Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation, if any, for the model to use the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
 
 
 
 
 
 
+>  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
-Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-
-Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
