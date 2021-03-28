@@ -34,7 +34,7 @@ We were instructed to produce our report by using the template provided in the `
 # `CREDIT RISK ANALYSIS REPORT`
 
 ### Introduction
-Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. For this Project, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  A dataset composed of historical lending activity from a peer-to-peer lending services company was employed to build a model that can identify the creditworthiness of borrowers.
+Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. For this assignment, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  A dataset composed of historical lending activity from a peer-to-peer lending services company was employed to build a model that can identify the creditworthiness of borrowers.
 
 The following sections constitute the scope of our analysis:
 
@@ -101,16 +101,14 @@ To do so, we completed the following steps:
 
 
 ### **Original Machine Learning Model 1:**
-  * Description of Model 1 Accuracy, Precision, and Recall scores:
-   > - count of the target classes
+  * Description of Model 1 Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_baso_confusion_matrix_classification_report.jpg?raw=true)
 
 
 
 ### **Resampled Machine Learning Model 2:**
-  * Description of Model 2 Accuracy, Precision, and Recall scores:
-   > - count of the target classes
+  * Description of Model 2 Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_basr_confusion_matrix_classification_report.jpg?raw=true)
 
