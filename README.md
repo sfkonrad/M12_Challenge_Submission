@@ -15,9 +15,9 @@
 
 ### Write a Credit Risk Analysis Report
 
-For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of both machine learning models that we used in this challenge. 
+For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared in this challenge. 
 
-We we instructed to structure our report by using the template provided in the `Starter_Code.zip` directory, ensuring that our summary report includes the following:
+We were instructed to produce our report by using the template provided in the `Starter_Code.zip` directory, ensuring that our summary report includes the following:
 
 1. An Overview of the Analysis: 
 > - Explaining the purpose of this analysis.
@@ -32,12 +32,9 @@ We we instructed to structure our report by using the template provided in the `
 
 ---
 ---
-# Credit Risk Analysis Report
+# CREDIT RISK ANALYSIS REPORT
 
-
-
-
-# INTRO
+## INTRO
 Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. In this Challenge, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  We employed a dataset composed of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 The following subsections constitute the scope of our analysis:
