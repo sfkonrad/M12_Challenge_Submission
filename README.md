@@ -100,7 +100,7 @@ To do so, we completed the following steps:
 ## ANALYSIS RESULTS
 
 
-* Machine Learning Model 1:
+* Original Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
    > - count of the target classes
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
@@ -108,7 +108,7 @@ To do so, we completed the following steps:
 
 
 
-* Machine Learning Model 2:
+* Resampled Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
    > - count of the target classes
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
