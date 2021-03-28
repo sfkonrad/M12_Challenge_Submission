@@ -49,16 +49,12 @@ The following sections constitute the scope of our analysis:
 ---
 
 ## OVERVIEW
-#### Split the Data into Training and Testing Sets
 
-1. Read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
-
-2. Create the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
-
+#### Splitting the Data into Training and Testing Sets
+1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
+2. Created the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
     > **Note** A value of `0` in the “loan_status” column means that the loan is healthy. A value of `1` means that the loan has a high risk of defaulting.  
-
-3. Check the balance of the labels variable (`y`) by using the `value_counts` function.
-
+3. Checked the balance of the labels variable (`y`) by using the `value_counts` function.
 4. Split the data into training and testing datasets by using `train_test_split`.
 
 
