@@ -12,7 +12,7 @@
 
 ---
 
-### Write a Credit Risk Analysis Report
+### Write a `Credit Risk Analysis Report`
 
 For this challenge, we were tasked with composing a brief report that presents a summary and an analysis of the performance of two machine learning models that we compared in this challenge. 
 
@@ -31,7 +31,7 @@ We were instructed to produce our report by using the template provided in the `
 
 ---
 ---
-# CREDIT RISK ANALYSIS REPORT
+# `CREDIT RISK ANALYSIS REPORT`
 
 ### Introduction
 Credit risk poses a classification problem that is inherently imbalanced. This is caused by healthy loans far outnumbering risky loans. For this Project, we’ve applied various techniques to **train** and **evaluate** models with **imbalanced classes**.  A dataset composed of historical lending activity from a peer-to-peer lending services company was employed to build a model that can identify the creditworthiness of borrowers.
@@ -52,7 +52,7 @@ The following sections constitute the scope of our analysis:
 
 To build a model that identifies borrowers' creditworthiness, we used our knowledge of the **imbalanced-learn** library to develop a logistic regression model for comparing two versions of the historical lending activity datasets from a peer-to-peer lending services company:
 1. First, we used the original dataset.
-2. Then, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
+2. Second, we resample the data by using the `RandomOverSampler` module from the imbalanced-learn library.
 
 For both cases, we: 
    > - obtained the count of the target classes
@@ -68,7 +68,9 @@ For both cases, we:
 #### Splitting the Data into Training and Testing Sets
 1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 2. Created the labels set (`y`)  from the “loan_status” column, and then created the features (`X`) DataFrame from the remaining columns.
-    > **Note** A value of `0` in the “loan_status” column means that the loan is healthy. A value of `1` means that the loan has a high risk of defaulting.  
+    > **`Note`** 
+    > - A value of `0` in the “loan_status” column indicates that the loan is healthy. 
+    > - A value of `1` indicates that the loan has a high risk of defaulting.  
 3. We checked the balance of the labels variable (`y`) by using the `value_counts` function.
 4. Split the data into training and testing datasets by using `train_test_split`.
 
@@ -81,8 +83,8 @@ Employing our logistic regression skillz to complete the following steps:
     * Generate a confusion matrix.
     * Print the classification report.
 
-#### Predict a Logistic Regression Model with Resampled Training Data
-Predictably, the small number of loans labeled `high-risk` requires us to develop a model that uses resampled data to help it perform better. We did this by using `RandomOverSampler` to resample the training data and then reevaluate the model. 
+#### Predicting a Logistic Regression Model with Resampled Training Data
+As expected, the small number of loans labeled `high-risk` requires us to develop a model that uses resampled data to help increase its performance. We did this by using `RandomOverSampler` to resample the training data and then reevaluate the model. 
 To do so, we completed the following steps:
 1. Used the `RandomOverSampler` module from the imbalanced-learn library to resample the data. Be sure to confirm that the labels have an equal number of data points. 
 2. Used the `LogisticRegression` classifier and the resampled data to fit the model and make predictions.
@@ -96,6 +98,37 @@ To do so, we completed the following steps:
 ---
 
 ## RESULTS
+
+
+
+
+
+
+
+
+
+
+
+
+For both cases, we: 
+   > - obtained the count of the target classes
+   >
+   > - trained a logistic regression classifier
+   >
+   > - calculated the balanced accuracy score
+   >
+   > - generated a confusion matrix
+   >
+   > - generated a classification report
+
+
+
+
+
+
+
+
+
 
 ---
 
