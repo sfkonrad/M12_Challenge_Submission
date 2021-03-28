@@ -1,4 +1,4 @@
-# [M12_Challenge_Submission](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/M12_Challenge_KonradK_credit_risk_resampling.ipynb)
+## [M12_Challenge_Submission](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/M12_Challenge_KonradK_credit_risk_resampling.ipynb)
 
 
 
@@ -7,7 +7,7 @@
 ### UCB-VIRT-FIN-PT-12-2020-U-B-TTH
 ---
 
-# Credit Risk Classification and Reporting 
+## Credit Risk Classification and Reporting 
 
 
 ---
