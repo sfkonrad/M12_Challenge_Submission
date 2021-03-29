@@ -130,13 +130,13 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
    
 ### Confusion Matrix Comparison
 Best Performance:
-> True Positive (TP):  **Original 18663** v 18649 (bad as bad // denying bad loans)
+> True Positive (TP):  **Original 18663** vs. 18649 (bad as bad // denying bad loans)
 >
-> True Negative (TN):  **Resample 615** v 563 (good as good // approving good loans)
+> True Negative (TN):  **Resample 615** vs. 563 (good as good // approving good loans)
 >
-> False Positive (FP): **Resample 4** v 56 (good as bad // losing out on good loans)
+> False Positive (FP): **Resample 4** vs. 56 (good as bad // losing out on good loans)
 >
-> False Negative (FN): **Original 102** v 116 (bad as good // assuming more risky loans)
+> False Negative (FN): **Original 102** vs. 116 (bad as good // assuming more risky loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
@@ -153,22 +153,26 @@ Best Performance:
 
 
 Best Performance for `1` Classification:
-> Precision (`pre`):  **Original 0.85** v 0.84 (how many are correctly classified among that class)
+> Precision (`pre`):  **Original 0.85** vs. 0.84 (how many are correctly classified among that class)
 >
-> Recall (`rec`):     **Resampled 0.99** v 0.91 (the ability of the classifier to distinguish all the positive samples)
+> Recall (`rec`):     **Resampled 0.99** vs. 0.91 (the ability of the classifier to distinguish all the positive samples)
 >
 > - - 
 >
-> f1-score (f1): **Resampled 0.91** v 0.88 (the harmonic mean between `pre` & `rec`)
+> f1-score (f1): **Resampled 0.91** vs. 0.88 (the harmonic mean between `pre` & `rec`)
 >
-> Geometric Mean (geo): **Resampled 0.99** v 0.95 ([Geometric Mean - How to Find, Formula, & Definition](https://tutors.com/math-tutors/geometry-help/geometric-mean))
+> Geometric Mean (geo): **Resampled 0.99** vs. 0.95 ([Geometric Mean - How to Find, Formula, & Definition](https://tutors.com/math-tutors/geometry-help/geometric-mean))
 >
-> IBA (iba): **Resampled 0.99** v 0.90 (idk)
+> Index of Balanced Accuracy (iba): **Resampled 0.99** vs. 0.90 ([used to evaluate learning processes in two-class imbalanced domains](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate.))
 >
-> Support (sup): **Same 619** v 619. (the number of occurence of the given class(es) in the dataset)
+> Support (sup): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 
 
 
+
+Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
+
+Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
 
 
 
@@ -184,10 +188,7 @@ Best Performance for `1` Classification:
 
 To minimize risk, we must pay close attention to most accurately predicting the `1`'s. Getting better at maxing TP results, while shrinking the predictions that are FN.
 
-
-
-
-
+Although with these models we can identify that the number of 'Good' borrowers we're losing
 
 
 >> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
@@ -236,8 +237,10 @@ for this RA, minimizing FN where 'bad' borrowers are being classified as 'good'
 
 ### Citations
 >
-> [Mr. Khaled Karman]() for [Class Predictions v Actual]() graphics from [Day 13.2]()
+> [Mr. Khaled Karman]() for [Class Predictions v Actual]() graphic from [Day 13.2]()
 >
 > [Scikit-learn's Documentatinon on `recall`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
 >
 > ["How to interpret classification report of scikit-learn?"](https://datascience.stackexchange.com/a/64443) by [bradS](https://datascience.stackexchange.com/users/45374/brads) from [Stack Exchange](https://datascience.stackexchange.com/)
+>
+>García V., Mollineda R.A., Sánchez J.S. (2009) [Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate). In: Araujo H., Mendonça A.M., Pinho A.J., Torres M.I. (eds) Pattern Recognition and Image Analysis. IbPRIA 2009. Lecture Notes in Computer Science, vol 5524. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-02172-5_57
