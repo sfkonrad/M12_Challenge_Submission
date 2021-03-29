@@ -184,9 +184,6 @@ Best Performance:
 
 Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'high-risk' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to more accurately distinguish the 'high-risk' borrowers from the 'low-risk'.  We mitigate more risk by not classifying 'high-risk' borrowers as 'low-risk' and therefore avoid lending on loans that are likely to default.
 
-The Original Model 1 demonstrates an improved ability to 
-
-
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
 Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
