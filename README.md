@@ -104,6 +104,15 @@ To do so, we completed the following steps:
   * Description of Model 1's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_baso_confusion_matrix_classification_report.jpg?raw=true)
+`1` Classification 
+> - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
+> - The model incorrectly classified 10-15% of the '1' Class predictions
+> - Which is critical for us to model correctly in the context of this RA.
+> 
+`0` Classification 
+> - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
+> - The model correctly classified effectively 100% of the '0' Class predictions
+> - Which doesn't matter much to us in the context of this RA.
 
 
 
@@ -111,6 +120,16 @@ To do so, we completed the following steps:
   * Description of Model 2's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_basr_confusion_matrix_classification_report.jpg?raw=true)
+`1` Classification 
+> - The Resampled Model correctly identifies the `1` Class with only 84% `pre` and 99% `rec`  
+> - The model incorrectly classified 10-15% of the '1' Class predictions
+> - Which is critical for us to model correctly in the context of this RA.
+> 
+`0` Classification 
+> - The Resampled Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
+> - The model correctly classified effectively 100% of the '0' Class predictions
+> - Which doesn't matter much to us in the context of this RA.
+
 
 
 
@@ -160,62 +179,19 @@ Best Performance:
 > * Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 ---
 
-Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
+Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to more accurately distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
 Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
 
-The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** framework.
+The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** frameworks.
 
 
 ---
 ---
 ---
 ---
-
-
-
-Q4. Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-
-**Answer:** 
-
-`1` Classification 
-> - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
-> - The model incorrectly classified 10-15% of the '1' Class predictions
-> - Which is critical for us to model correctly in the context of this RA.
-
-
-`0` Classification 
-> - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
-> - The model correctly classified effectively 100% of the '0' Class predictions
-> - Which doesn't matter much to us in the context of this RA.
-
-
->>
-
-
-Q4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-**Answer:** 
-
-`1` Classification 
-> - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
-> - The model incorrectly classified 10-15% of the '1' Class predictions
-> - Which is critical for us to model correctly in the context of this RA.
-
-
-`0` Classification 
-> - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
-> - The model correctly classified effectively 100% of the '0' Class predictions
-> - Which doesn't matter much to us in the context of this RA.
-
-
-
-
-
-
-
-
 
 ### Citations
 >
