@@ -138,7 +138,7 @@ To do so, we completed the following steps:
 ## SUMMARY
 
 ### Target Class Count Comparison
-Reveals that the **2500** 'Bad' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'Bad' loans.
+Reveals that the **2500** 'bad' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'bad' loans.
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
