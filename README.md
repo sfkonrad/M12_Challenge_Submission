@@ -190,7 +190,7 @@ Notably, the Resampled Model correctly **recalled** the results classified as `1
 
 The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. Due to its tendancy to predict fewer False Negatives and more instances of True Positive, the 'Original Model 1' also wins the recommendation. For maximum mitigation of risk, classification of all new applications for credit should be validated by each model prior to approval of the loan.
 
-It's further recommended that engineers continue refining the resampled model to keep reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** frameworks.
+It's further recommended that engineers continue refining the resampled model to keep reducing instances of a False Negative prediction. Perhaps transitioning into a model that more closely resembles **neural net** frameworks.
 
 
 ---
