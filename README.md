@@ -101,14 +101,14 @@ To do so, we completed the following steps:
 
 
 ### **Original Machine Learning Model 1:**
-  * Description of Model 1 Target Class Count, Accuracy, Precision, and Recall scores:
+  * Description of Model 1's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_baso_confusion_matrix_classification_report.jpg?raw=true)
 
 
 
 ### **Resampled Machine Learning Model 2:**
-  * Description of Model 2 Target Class Count, Accuracy, Precision, and Recall scores:
+  * Description of Model 2's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_basr_confusion_matrix_classification_report.jpg?raw=true)
 
@@ -128,7 +128,12 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
-* Confusion Matrix Comparison
+### Confusion Matrix Comparison
+Best Performance:
+> True Positive (TP):  **Original 18663** v 18649 (bad as bad)
+> True Negative (TN):  **Resample 615** v 563 (good as good)
+> False Positive (FP): **Resample 4** v 56 good as bad (losing out on good loans)
+> False Negative (FN): **Original 102** v 116 bad as good (assuming more risky loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
@@ -141,24 +146,19 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
 
 
 
-> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-> * Which one seems to perform best? How do you know it performs best?
-> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )... the `1`'s' are rare, but critical to identify and predict
-> 
-> 
-> Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
+>> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+>> * Which one seems to perform best? How do you know it performs best?
+>> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )... the `1`'s' are rare, but critical to identify and predict
+>> 
+>> 
+>> Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
 
 
 
 
->  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
->
-> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-
-
-
-
-
+>>  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+>>
+>> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
 
 
@@ -166,11 +166,11 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
 
 
 
-### Confusion Matrix Comparison
-TP Original 18663 v 18649 bad as bad
-TN Resample 615 v 563 good as good
-FP Resample 4 v 56 good as bad (losing out on good loans)
-FN Original 102 v 116 bad as good (assuming more risky loans)
+
+
+
+
+
 
 
 Since the present objective is risk mitigation, we closely observe the (FN) to better distinguish the bad borrowers from the good.
