@@ -158,9 +158,9 @@ Best Performance:
 > * Index of Balanced Accuracy (`iba`): **Resampled 0.99** vs. 0.90 ([used to evaluate learning processes in two-class imbalanced domains](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate.))
 >
 > * Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
+---
 
-
-The most important thing in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.  Since the present objective is risk mitigation, we must closely observe and work to improve the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending on loans that are likely to default.
+Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
@@ -168,21 +168,13 @@ Notably, the Resampled Model correctly **recalled** the results classified as `1
 
 
 
-
+Recommendation is to employ the Resampled Model to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to reduce the instances of a False Negative prediction.
 
 
 ---
 ---
 ---
 ---
-
->> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
->> * Which one seems to perform best? How do you know it performs best?
->> * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )... the `1`'s' are rare, but critical to identify and predict
->> 
->> 
->> Compare the two versions of the dataset predictions. Include your recommendation for the model to use, if any, on the original vs. the resampled data. If you don’t recommend either model, justify your reasoning. (4 points)
-
 
 
 
@@ -200,10 +192,10 @@ Notably, the Resampled Model correctly **recalled** the results classified as `1
 
 ### Citations
 >
-> [Mr. Khaled Karman]() for [Class Predictions v Actual]() graphic from [Day 13.2]()
+> * [Mr. Khaled Karman]() for ['Class Predictions v Actual' Graphic]() from [Day 13.2]()
 >
-> [Scikit-learn's Documentatinon on `recall`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
+> * [Scikit-learn's Documentatinon on `recall`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
 >
-> ["How to interpret classification report of scikit-learn?"](https://datascience.stackexchange.com/a/64443) by [bradS](https://datascience.stackexchange.com/users/45374/brads) from [Stack Exchange](https://datascience.stackexchange.com/)
+> * ["How to interpret classification report of scikit-learn?"](https://datascience.stackexchange.com/a/64443) by [bradS](https://datascience.stackexchange.com/users/45374/brads) from [Stack Exchange](https://datascience.stackexchange.com/)
 >
->García V., Mollineda R.A., Sánchez J.S. (2009) [Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate). In: Araujo H., Mendonça A.M., Pinho A.J., Torres M.I. (eds) Pattern Recognition and Image Analysis. IbPRIA 2009. Lecture Notes in Computer Science, vol 5524. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-02172-5_57
+> * García V., Mollineda R.A., Sánchez J.S. (2009) [Index of Balanced Accuracy: A Performance Measure for Skewed Class Distributions](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate). In: Araujo H., Mendonça A.M., Pinho A.J., Torres M.I. (eds) Pattern Recognition and Image Analysis. IbPRIA 2009. Lecture Notes in Computer Science, vol 5524. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-642-02172-5_57
