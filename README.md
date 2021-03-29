@@ -145,25 +145,18 @@ Best Performance:
 ### Classification Report Comparison
 
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
-   
-
-
-
-
-
-
-Best Performance for `1` Classification:
+> Best Performance for type `1` Classification:
 > Precision (`pre`):  **Original 0.85** vs. 0.84 (how many are correctly classified among that class)
 >
 > Recall (`rec`):     **Resampled 0.99** vs. 0.91 (the ability of the classifier to distinguish all the positive samples)
 >
-> f1-score (f1): **Resampled 0.91** vs. 0.88 (the harmonic mean between `pre` & `rec`)
+> f1-score (`f1`): **Resampled 0.91** vs. 0.88 (the harmonic mean between `pre` & `rec`)
 >
-> Geometric Mean (geo): **Resampled 0.99** vs. 0.95 ([Geometric Mean - How to Find, Formula, & Definition](https://tutors.com/math-tutors/geometry-help/geometric-mean))
+> Geometric Mean (`geo`): **Resampled 0.99** vs. 0.95 ([Geometric Mean - How to Find, Formula, & Definition](https://tutors.com/math-tutors/geometry-help/geometric-mean))
 >
-> Index of Balanced Accuracy (iba): **Resampled 0.99** vs. 0.90 ([used to evaluate learning processes in two-class imbalanced domains](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate.))
+> Index of Balanced Accuracy (`iba`): **Resampled 0.99** vs. 0.90 ([used to evaluate learning processes in two-class imbalanced domains](https://link.springer.com/chapter/10.1007/978-3-642-02172-5_57#:~:text=This%20paper%20introduces%20a%20new,the%20highest%20individual%20accuracy%20rate.))
 >
-> Support (sup): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
+> Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 
 
 
