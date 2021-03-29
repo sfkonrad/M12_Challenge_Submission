@@ -124,7 +124,7 @@ Reveals that the **2500** 'Bad' loans represent approx 3% of the Original data. 
    
    
 ### Balanced Accuracy Score Comparison
-The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of **0.9937**.  Whereas the Original Model produced a score of **0.9520**.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy below.
+The **Resampled Model 2 appears to demonstrate the better performance** for overall accuracy with a Balanced Accuracy Score of **0.9937**.  Whereas the Original Model produced a score of **0.9520**.  Which implies that the Resampled Model is more accurate.  We'll take a closer look at the Precision of this accuracy and Recall below.
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_baso_basr.jpg?raw=true)
    
    
@@ -132,9 +132,9 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
 Best Performance:
 > True Positive (TP):  **Original 18663** vs. 18649 (bad as bad // denying bad loans)
 >
-> True Negative (TN):  **Resample 615** vs. 563 (good as good // approving good loans)
+> True Negative (TN):  **Resampled 615** vs. 563 (good as good // approving good loans)
 >
-> False Positive (FP): **Resample 4** vs. 56 (good as bad // losing out on good loans)
+> False Positive (FP): **Resampled 4** vs. 56 (good as bad // losing out on good loans)
 >
 > False Negative (FN): **Original 102** vs. 116 (bad as good // assuming more risky loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
