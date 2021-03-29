@@ -140,7 +140,7 @@ To do so, we completed the following steps:
 ## SUMMARY
 
 ### Target Class Count Comparison
-Reveals that the **2500** 'bad' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'bad' loans.
+Reveals that the **2500** 'high-risk' loans represent approx 3% of the Original data.  Whereas the `RandomOverSampler` populates **56271** entries, or exactly 50% of the Resampled loan data, as 'high-risk' loans.
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_target_class_count.jpg?raw=true)
    
    
@@ -151,13 +151,13 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
    
 ### Confusion Matrix Comparison
 Best Performance:
-> True Positive (TP):  **Original 18663** vs. 18649 (bad as bad // denying bad loans)
+> True Positive (TP):  **Original 18663** vs. 18649 (high-risk as high-risk // denying high-risk loans)
 >
-> True Negative (TN):  **Resampled 615** vs. 563 (good as good // approving good loans)
+> True Negative (TN):  **Resampled 615** vs. 563 (low-risk as low-risk // approving low-risk loans)
 >
-> False Positive (FP): **Resampled 4** vs. 56 (good as bad // losing out on good loans)
+> False Positive (FP): **Resampled 4** vs. 56 (low-risk as high-risk // losing out on low-risk loans)
 >
-> False Negative (FN): **Original 102** vs. 116 (bad as good // assuming more bad loans)
+> False Negative (FN): **Original 102** vs. 116 (high-risk as low-risk // assuming more high-risk loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
@@ -181,7 +181,7 @@ Best Performance:
 > * Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 ---
 
-Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to more accurately distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
+Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'high-risk' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to more accurately distinguish the 'high-risk' borrowers from the 'low-risk'.  We mitigate more risk by not classifying 'high-risk' borrowers as 'low-risk' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
