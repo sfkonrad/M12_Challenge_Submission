@@ -142,9 +142,31 @@ Best Performance:
    >>>>>> © 2021 Khaled Karman
    
    
-* Classification Report Comparison
+### Classification Report Comparison
+
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -162,11 +184,6 @@ Best Performance:
 >>  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 >>
 >> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
-
-
-
-
-
 
 
 
@@ -196,6 +213,5 @@ to avoid lending to bad borrowers
 
 
 
-### Classification Report Comparison
 
 
