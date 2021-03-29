@@ -155,9 +155,9 @@ Best Performance:
 >
 > True Negative (TN):  **Resampled 615** vs. 563 (low-risk as low-risk // approving low-risk loans)
 >
-> False Positive (FP): **Resampled 4** vs. 56 (low-risk as high-risk // losing out on low-risk loans)
+> False Positive (FP): **Resampled 4** vs. 56 (low-risk as high-risk // denying low-risk loans)
 >
-> False Negative (FN): **Original 102** vs. 116 (high-risk as low-risk // assuming more high-risk loans)
+> False Negative (FN): **Original 102** vs. 116 (high-risk as low-risk // approving high-risk loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
