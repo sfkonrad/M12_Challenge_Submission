@@ -68,6 +68,7 @@ For both cases, we:
 ### 1) Splitting the Data into Training and Testing Sets
 1. We read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
 2. Created the labels set (`y`)  from the “loan_status” column, and then created the features (`X`) DataFrame from the remaining columns.
+    
     **`Note`** 
     > - A value of `0` in the “loan_status” column indicates that the loan is healthy. 
     > - A value of `1` indicates that the loan has a high risk of defaulting.  
