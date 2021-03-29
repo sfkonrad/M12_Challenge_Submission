@@ -136,7 +136,7 @@ Best Performance:
 >
 > False Positive (FP): **Resampled 4** vs. 56 (good as bad // losing out on good loans)
 >
-> False Negative (FN): **Original 102** vs. 116 (bad as good // assuming more risky loans)
+> False Negative (FN): **Original 102** vs. 116 (bad as good // assuming more bad loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
    >>>>>> © 2021 Khaled Karman
@@ -156,8 +156,6 @@ Best Performance for `1` Classification:
 > Precision (`pre`):  **Original 0.85** vs. 0.84 (how many are correctly classified among that class)
 >
 > Recall (`rec`):     **Resampled 0.99** vs. 0.91 (the ability of the classifier to distinguish all the positive samples)
->
-> - - 
 >
 > f1-score (f1): **Resampled 0.91** vs. 0.88 (the harmonic mean between `pre` & `rec`)
 >
