@@ -104,6 +104,7 @@ To do so, we completed the following steps:
   * Description of Model 1's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1_baso_confusion_matrix_classification_report.jpg?raw=true)
+   > 
 `1` Classification 
 > - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
 > - The model incorrectly classified 10-15% of the '1' Class predictions
@@ -120,6 +121,7 @@ To do so, we completed the following steps:
   * Description of Model 2's Target Class Count, Accuracy, Precision, and Recall scores:
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_target_class_count.jpg?raw=true)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM2_basr_confusion_matrix_classification_report.jpg?raw=true)
+   > 
 `1` Classification 
 > - The Resampled Model correctly identifies the `1` Class with only 84% `pre` and 99% `rec`  
 > - The model incorrectly classified 10-15% of the '1' Class predictions
