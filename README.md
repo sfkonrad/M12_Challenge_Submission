@@ -176,20 +176,25 @@ The recommendation is to employ the Resampled Model 2 to classify risk among new
 
 
 
->>  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+>>  Q4. Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
 
+`1`
+> - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
+> - The model incorrectly classified 10-15% of the '1' Class predictions
+> - Which is critical for us to model correctly in the context of this RA.
 
-
+>
+`0`s
+> - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
+> - The model correctly classified effectively 100% of the '0' Class predictions
+> - Which doesn't matter much to us in the context of this RA.
 
 
 >>
 
 
-
-
-
->> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+>> Q4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
 
 
