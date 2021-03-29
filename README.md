@@ -109,7 +109,7 @@ To do so, we completed the following steps:
 > - The model incorrectly classified 10-15% of the '1' Class predictions
 > - Which is critical for us to model correctly in the context of this RA.
 > 
-`0` Classification 
+> `0` Classification 
 > - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
 > - The model correctly classified effectively 100% of the '0' Class predictions
 > - Which doesn't matter much to us in the context of this RA.
