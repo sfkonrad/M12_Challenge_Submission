@@ -160,15 +160,13 @@ Best Performance:
 > * Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 ---
 
-Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
+Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'bad' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'bad' borrowers as 'good' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
 Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
 
-
-
-Recommendation is to employ the Resampled Model to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to reduce the instances of a False Negative prediction.
+The recommendation is to employ the Resampled Model 2 to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction.
 
 
 ---
@@ -179,7 +177,18 @@ Recommendation is to employ the Resampled Model to classify risk among new appli
 
 
 >>  Q4. FIT/TRAIN: Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+
+
+
+
+
+
 >>
+
+
+
+
+
 >> Q4. PREDICT: Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
 
