@@ -166,7 +166,7 @@ Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the
 
 Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
 
-The recommendation is to employ the Resampled Model 2 to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction.
+The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** framework.
 
 
 ---
@@ -176,7 +176,7 @@ The recommendation is to employ the Resampled Model 2 to classify risk among new
 
 
 
->>  Q4. Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+Q4. Answer the following question: How well does the logistic regression model predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 
 **Answer:** 
 
@@ -195,7 +195,7 @@ The recommendation is to employ the Resampled Model 2 to classify risk among new
 >>
 
 
->> Q4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
+Q4. Answer the following question: How well does the logistic regression model, fit with oversampled data, predict both the `0` (healthy loan) and `1` (high-risk loan) labels?
 **Answer:** 
 
 `1` Classification 
