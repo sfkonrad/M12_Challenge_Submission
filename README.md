@@ -152,6 +152,20 @@ Best Performance:
 
 
 
+Best Performance for `1` Classification:
+> Precision (`pre`):  **Original 0.85** v 0.84 (how many are correctly classified among that class)
+>
+> Recall (`rec`):     **Resampled 0.99** v 0.91 (the ability of the classifier to distinguish all the positive samples)
+>
+> - - 
+>
+> f1-score (f1): **Resampled 0.91** v 0.88 (the harmonic mean between `pre` & `rec`)
+>
+> Geometric Mean (geo): **Resampled 0.99** v 0.95 ([Geometric Mean - How to Find, Formula, & Definition](https://tutors.com/math-tutors/geometry-help/geometric-mean))
+>
+> IBA (iba): **Resampled 0.99** v 0.90 (idk)
+>
+> Support (sup): **Same 619** v 619. (the number of occurence of the given class(es) in the dataset)
 
 
 
@@ -164,6 +178,11 @@ Best Performance:
 
 
 
+
+
+
+
+To minimize risk, we must pay close attention to most accurately predicting the `1`'s. Getting better at maxing TP results, while shrinking the predictions that are FN.
 
 
 
@@ -212,6 +231,13 @@ to avoid lending to bad borrowers
 
 
 
+for this RA, minimizing FN where 'bad' borrowers are being classified as 'good'
 
 
-
+### Citations
+>
+> [Mr. Khaled Karman]() for [Class Predictions v Actual]() graphics from [Day 13.2]()
+>
+> [Scikit-learn's Documentatinon on `recall`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
+>
+> ["How to interpret classification report of scikit-learn?"](https://datascience.stackexchange.com/a/64443) by [bradS](https://datascience.stackexchange.com/users/45374/brads) from [Stack Exchange](https://datascience.stackexchange.com/)
