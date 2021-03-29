@@ -160,7 +160,7 @@ Best Performance:
 > * Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 
 
-What's most important in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.  Since the present objective is risk mitigation, we closely observe the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending on loans that are likely to default.
+The most important thing in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.  Since the present objective is risk mitigation, we must closely observe and work to improve the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
