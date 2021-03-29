@@ -145,7 +145,8 @@ Best Performance:
 ### Classification Report Comparison
 
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_classification_report.jpg?raw=true)
-> Best Performance for type `1` Classification:
+> #### Best Performance for type `1` Classification:
+>
 > Precision (`pre`):  **Original 0.85** vs. 0.84 (how many are correctly classified among that class)
 >
 > Recall (`rec`):     **Resampled 0.99** vs. 0.91 (the ability of the classifier to distinguish all the positive samples)
@@ -159,7 +160,7 @@ Best Performance:
 > Support (`sup`): **Same 619** vs. 619. (the number of occurence of the given class(es) in the dataset)
 
 
-
+What's most important in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.  Since the present objective is risk mitigation, we closely observe the False Negative (FN) predictions to better distinguish the 'bad' borrowers from the 'good'.  We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending on loans that are likely to default.
 
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
@@ -170,17 +171,10 @@ Notably, the Resampled Model correctly **recalled** the results classified as `1
 
 
 
-
-
-
-
-
-
-
-To minimize risk, we must pay close attention to most accurately predicting the `1`'s. Getting better at maxing TP results, while shrinking the predictions that are FN.
-
-Although with these models we can identify that the number of 'Good' borrowers we're losing
-
+---
+---
+---
+---
 
 >> 3. A summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 >> * Which one seems to perform best? How do you know it performs best?
@@ -202,28 +196,6 @@ Although with these models we can identify that the number of 'Good' borrowers w
 
 
 
-
-
-Since the present objective is risk mitigation, we closely observe the (FN) to better distinguish the bad borrowers from the good.
-
-We mitigate more risk by not classifying 'Bad' borrowers as 'Good' and therefore avoid lending to bad borrowers
-
-What's most important in this analysis is to make certain all the `1`'s, or 'Bad' borrowers can be identified and declined the loan.
-
-Rather than ensuring that every `0`, or 'Good' borrower, is approved for their loan, as might be considered in a reckless growth strategy. 
-
-
-If growth is the main objective, observing (FPs) to avoid losing out on business by classifying more borrowers as 'Good' 
-at the risk of declining some 'Good' borrowers their loans
-
-
-If the goal is risk mitigation, then observing the FN avoid bad loans. to better id bad borrowrs
-mitigate more risk by not classifying Bad borrowers as Good
-to avoid lending to bad borrowers
-
-
-
-for this RA, minimizing FN where 'bad' borrowers are being classified as 'good'
 
 
 ### Citations
