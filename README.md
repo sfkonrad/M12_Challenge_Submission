@@ -107,12 +107,12 @@ To do so, we completed the following steps:
    > 
 > `1` Classification 
 > - The Original Model correctly identifies the `1` Class with only 85% `pre` and 91% `rec`  
-> - The model incorrectly classified 10-15% of the '1' Class predictions
+> - The model incorrectly classified 10-15% of the `1` Class predictions
 > - Which is critical for us to model correctly in the context of this RA.
 > 
 > `0` Classification 
 > - The Original Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
-> - The model correctly classified effectively 100% of the '0' Class predictions
+> - The model correctly classified effectively 100% of the `0` Class predictions
 > - Which doesn't matter much to us in the context of this RA.
 
 
@@ -124,12 +124,12 @@ To do so, we completed the following steps:
    > 
 > `1` Classification 
 > - The Resampled Model correctly identifies the `1` Class with only 84% `pre` and 99% `rec`  
-> - The model incorrectly classified 10-15% of the '1' Class predictions
+> - The model incorrectly classified 10-15% of the `1` Class predictions
 > - Which is critical for us to model correctly in the context of this RA.
 > 
 > `0` Classification 
 > - The Resampled Model correctly identifies the `0` Class with 100% `pre` and 99% `rec`  
-> - The model correctly classified effectively 100% of the '0' Class predictions
+> - The model correctly classified effectively 100% of the `0` Class predictions
 > - Which doesn't matter much to us in the context of this RA.
 
 
@@ -183,11 +183,16 @@ Best Performance:
 
 Since the present objective is risk mitigation, the most prevalent concern in this analysis is to make certain that all the `1`'s, or 'high-risk' borrowers can be identified and declined the loan.  We must closely evaluate and work to reduce the False Negative (FN) predictions to more accurately distinguish the 'high-risk' borrowers from the 'low-risk'.  We mitigate more risk by not classifying 'high-risk' borrowers as 'low-risk' and therefore avoid lending on loans that are likely to default.
 
+The Original Model 1 demonstrates an improved ability to 
+
+
 Although Precision is slightly better in the Original Model (0.85 vs. 0.84), the Resampled Model appears to outperform the Original across the remainder of our classification metrics.
 
 Notably, the Resampled Model correctly **recalled** the results classified as `1` nearly 10% better (0.99 vs. 0.91) than the Original Model.
 
-The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. It's further recommended that engineers continue refining the regression model to continue reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** frameworks.
+The recommendation is to initially employ the 'Resampled Model 2' to classify risk among new applicants due to its superior `rec` score. Due to its tendancy to predict fewer False Negatives and more instances of True Positive, the 'Original Model 1' also wins the recommendation. For maximum mitigation of risk, classifications of all new applications for credit should be validated in each model prior to approval of the loan.
+
+It's further recommended that engineers continue refining the resampled model to keep reducing instances of a False Negative prediction. Perhaps evolving into a model that more closely resembles **neural net** frameworks.
 
 
 ---
