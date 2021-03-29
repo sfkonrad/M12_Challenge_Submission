@@ -192,7 +192,7 @@ Recommendation is to employ the Resampled Model to classify risk among new appli
 
 ### Citations
 >
-> * [Mr. Khaled Karman]() for ['Class Predictions v Actual' Graphic]() from [Day 13.2]()
+> * [Mr. Khaled Karman]() for ['Class Predictions v Actual' Graphic]() from [Class Activity Day 13.2]()
 >
 > * [Scikit-learn's Documentatinon on `recall`](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
 >
