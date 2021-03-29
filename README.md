@@ -131,8 +131,11 @@ The **Resampled Model 2 appears to demonstrate the better performance** for over
 ### Confusion Matrix Comparison
 Best Performance:
 > True Positive (TP):  **Original 18663** v 18649 (bad as bad)
+>
 > True Negative (TN):  **Resample 615** v 563 (good as good)
+>
 > False Positive (FP): **Resample 4** v 56 good as bad (losing out on good loans)
+>
 > False Negative (FN): **Original 102** v 116 bad as good (assuming more risky loans)
    > ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/M12C-MLM1vM2_confusion_matrix.jpg?raw=true)
    >>>>>> ![image.png](https://github.com/sfkonrad/M12_Challenge_Submission/blob/main/M12_Challenge_Submission/Documentation/Images/Un-Confusion_Matrix_by_Khaled_Karman.jpg?raw=true)
